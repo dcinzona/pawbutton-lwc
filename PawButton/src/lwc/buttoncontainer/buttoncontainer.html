@@ -1,0 +1,14 @@
+<!--
+ - Created by gtandeciarz on 12/20/19.
+ -->
+
+<!-- Button Container -->
+<template>
+    <lightning-card title='button container'>
+        <c-pawbutton slot='actions' selected={selected} showbutton={loadingDone} onpawbuttonclicked={handleNotification} ></c-pawbutton>
+        <div class="slds-card__body_inner">
+            <p if:true={selected}>Selected</p>
+            <p if:false={selected}>Not selected</p>
+        </div>
+    </lightning-card>
+</template>

@@ -1,0 +1,12 @@
+force.json
+.vscode/
+config/
+debug/
+*sublime*
+.idea/
+/*.iml
+*.iml
+IlluminatedCloud/
+src/\.DS_Store
+
+\.DS_Store
